@@ -29,7 +29,7 @@
             </ul>
         </div>
     </nav>
-    <h1 style="text-align:center;">Customer Reviews</h1>
+    <h1 style="text-align:center;">Drink Reviews</h1>
     <?php
 $servername = "localhost";
 $username = "emilypri_skeco";
