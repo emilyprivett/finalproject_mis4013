@@ -29,6 +29,16 @@
             </ul>
         </div>
     </nav>
+    
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="<img src="beehive.png" class="img-fluid" style="width:25t; height:50pt;">" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">The Beehive</h5>
+    <p class="card-text">564 Moore Avenue, Dallas TX, 75207</p>
+    <a href="beehive.html" class="btn btn-primary">The Beehive</a>
+  </div>
+</div>
+    
     <h1 style="text-align:center;">Welcome to Barske!</h1>
     <?php
 $servername = "localhost";
