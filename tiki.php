@@ -8,23 +8,23 @@
   </head>
   <body style="background-color: #F8EDDB">
      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #A6B6E9">
-        <a class="navbar-brand" href="index.html"><img src="barske.png" class="img-fluid" style="width:25t; height:50pt;"></a>
+        <a class="navbar-brand" href="index.php"><img src="barske.png" class="img-fluid" style="width:25t; height:50pt;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="beehive.html">The Beehive</a>
+                    <a class="nav-link" href="beehive.php">The Beehive</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="orchard.html">The Orchard</a>
+                    <a class="nav-link" href="orchard.php">The Orchard</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="tiki.html">The Tipsy Tiki</a>
+                    <a class="nav-link" href="tiki.php">The Tipsy Tiki</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="review.html">Drink Reviews</a>
+                    <a class="nav-link" href="review.php">Drink Reviews</a>
                 </li>
             </ul>
         </div>
