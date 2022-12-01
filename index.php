@@ -31,7 +31,7 @@
     </nav>
     <h1 style="text-align:center;">Welcome to Barske!</h1>
   <div class="card-group">
-  <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
+  <div class="card" style="width:15rem; margin-left:1rem; margin-right:1rem;">
   <img class="card-img-top" src="beehive.png">
   <div class="card-body">
     <h5 class="card-title">The Beehive</h5>
@@ -39,7 +39,7 @@
     <a href="beehive.php" class="btn btn-primary">The Beehive</a>
   </div>
   </div>
-  <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
+  <div class="card" style="width:15rem; margin-left:1rem; margin-right:1rem;">
   <img class="card-img-top" src="orchard.png">
   <div class="card-body">
     <h5 class="card-title">The Orchard</h5>
@@ -47,7 +47,7 @@
     <a href="orchard.php" class="btn btn-primary">The Orchard</a>
   </div>
   </div>    
-  <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
+  <div class="card" style="width:15rem; margin-left:1rem; margin-right:1rem;">
   <img class="card-img-top" src="tiki.png">
   <div class="card-body">
     <h5 class="card-title">The Tipsy Tiki</h5>
