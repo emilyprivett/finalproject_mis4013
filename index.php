@@ -15,7 +15,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="beehive.png">The Beehive</a>
+                    <a class="nav-link" href="beehive.php">The Beehive</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="orchard.php">The Orchard</a>
@@ -32,7 +32,7 @@
     <h1 style="text-align:center;">Welcome to Barske!</h1>
   <div class="card-group">
   <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
-  <img class="card-img-top" src="beehive2.png">
+  <img class="card-img-top" src="beehive3.jpg">
   <div class="card-body">
     <h5 class="card-title">The Beehive</h5>
     <p class="card-text">564 Moore Avenue, Dallas TX, 75207</p>
