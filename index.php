@@ -30,7 +30,7 @@
         </div>
     </nav>
     <h1 style="text-align:center;">Welcome to Barske!</h1>
-  <div class="card-group">
+  <div class="card-deck">
   <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="beehive.png">
   <div class="card-body">
