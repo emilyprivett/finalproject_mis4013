@@ -30,7 +30,7 @@
         </div>
     </nav>
     <h1 style="text-align:center;">Welcome to Barske!</h1>
-     <div class="card-group">
+    <div class="card-group">
     <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="beehive.png">
   <div class="card-body">
@@ -55,7 +55,7 @@
     <a href="tiki.php" class="btn btn-primary">The Tipsy Tiki</a>
   </div>
 </div>
-    
+</card-group> 
   
     <?php
 $servername = "localhost";
@@ -84,7 +84,6 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
-</card-group>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
