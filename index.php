@@ -15,7 +15,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="beehive.php">The Beehive</a>
+                    <a class="nav-link" href="beehive3.jpg">The Beehive</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="orchard.php">The Orchard</a>
