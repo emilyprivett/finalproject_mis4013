@@ -29,7 +29,8 @@
             </ul>
         </div>
     </nav>
-    <h1 style="text-align:center;">Welcome to Barske!</h1>
+    <h1 style="text-align:center;">Welcome to Barske!</h1>    
+ <div class="row">
  <div class="container">       
   <div class="card" style="width: 18rem; display:inline-block;">
   <img class="card-img-top" src="beehive.png">
@@ -54,6 +55,7 @@
     <p class="card-text">934 Short Street, Austin TX, 78723</p>
     <a href="tiki.php" class="btn btn-primary">The Tipsy Tiki</a>
   </div>
+    </div>
     </div>
     <?php
 $servername = "localhost";
