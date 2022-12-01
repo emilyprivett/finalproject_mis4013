@@ -61,7 +61,7 @@
 <br></br>
 <br></br>
    
-<div class="100-px-wide">
+<div class="50-px-wide">
   
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
