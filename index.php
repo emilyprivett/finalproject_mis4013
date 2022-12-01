@@ -61,29 +61,43 @@
 <br></br>
 <br></br>
    
-<div class="50-px-wide">
+<div class="100-px-wide">
   
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="beehivebarpic.jpg" alt="First slide">
+  <div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="beehivebarpic.jpg" alt="The Beehive" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="orchardbarpic.webp" alt="The Orchard" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="tikibarpic.jpg" alt="The Tipsy Tiki" style="width:100%;">
+      </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="orchardbarpic.webp" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="tikibarpic.jpg" alt="Third slide">
-    </div>
+
+    
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-</div>
-   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
   
   </div>
