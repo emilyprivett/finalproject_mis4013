@@ -62,7 +62,6 @@
   
 <br></br>
 <br></br>
-<br></br>
    
 <div class="100-px-wide">
   
@@ -79,7 +78,7 @@
     
     <div class="carousel-inner">
       <div class="item active">
-        <img src="beehivebarpic.jpg" alt="The Beehive" style="width:100%;">
+        <img src="barpicbeehive.jpg" alt="The Beehive" style="width:100%;">
       </div>
 
       <div class="item">
@@ -87,7 +86,7 @@
       </div>
     
       <div class="item">
-        <img src="tikibarpic.jpg" alt="The Tipsy Tiki" style="width:100%;">
+        <img src="barpictiki.jpg" alt="The Tipsy Tiki" style="width:100%;">
       </div>
     </div>
 
