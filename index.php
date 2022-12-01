@@ -30,7 +30,8 @@
         </div>
     </nav>
     <h1 style="text-align:center;">Welcome to Barske!</h1>
- <div class="container" style="display:inline-block;">
+ <div class="container">
+   <div class="card-group" style="display:inline-block;">        
   <div class="card" style="width: 18rem; display:inline-block;">
   <img class="card-img-top" src="beehive.png">
   <div class="card-body">
@@ -54,6 +55,7 @@
     <p class="card-text">934 Short Street, Austin TX, 78723</p>
     <a href="tiki.php" class="btn btn-primary">The Tipsy Tiki</a>
   </div>
+    </div>
     </div>
     <?php
 $servername = "localhost";
