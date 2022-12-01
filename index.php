@@ -39,7 +39,7 @@
     <a href="beehive.php" class="btn btn-primary">The Beehive</a>
   </div>
   </div>
-  <div class="card" style="width:18rem; height:18rem; margin-left:1rem; margin-right:1rem;">
+  <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
   <img class="card-img-top" src="orchard.png">
   <div class="card-body">
     <h5 class="card-title">The Orchard</h5>
