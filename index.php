@@ -30,7 +30,8 @@
         </div>
     </nav>
     <h1 style="text-align:center;">Welcome to Barske!</h1>
-  <div class="card-group" style="display:inline-block">
+    
+ <div class="card-group" style="display:inline-block;">
     <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="beehive.png">
   <div class="card-body">
@@ -55,7 +56,7 @@
     <a href="tiki.php" class="btn btn-primary">The Tipsy Tiki</a>
   </div>
 </div>
- </card-group>
+      </div>
     <?php
 $servername = "localhost";
 $username = "emilypri_skeco";
