@@ -65,13 +65,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="beehivebarpic.png" alt="The Beehive">
+      <img class="d-block w-100" src="beehivebarpic.png" alt="First Slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="orchardbarpic.webp" alt="The Orchard">
+      <img class="d-block w-100" src="orchardbarpic.webp" alt="Second Slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="tikibarpic.png" alt="The Tipsy Tiki">
+      <img class="d-block w-100" src="tikibarpic.png" alt="Third Slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
