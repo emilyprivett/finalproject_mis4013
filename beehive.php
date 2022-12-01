@@ -6,6 +6,7 @@
     <title>Barske</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   </head>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <body style="background-color: #F8EDDB">
      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #A6B6E9">
         <a class="navbar-brand" href="index.php"><img src="barske.png" class="img-fluid" style="width:25t; height:50pt;"></a>
@@ -30,6 +31,31 @@
         </div>
     </nav>
     <h1 style="text-align:center;">The Beehive</h1>
+    <div id="myGoogleChart" style="width:100%; max-width:600px; height:500px;"></div>
+
+    <script>
+        google.charts.load('current', { 'packages': ['corechart'] });
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Contry', 'Mhl'],
+                ['Italy', 55],
+                ['France', 49],
+                ['Spain', 44],
+                ['USA', 24],
+                ['Argentina', 15]
+            ]);
+
+            var options = {
+                title: 'Barske Drink Reviews'
+            };
+
+            var chart = new google.visualization.BarChart(document.getElementById('myGoogleChart'));
+            chart.draw(data, options);
+        }
+    </script>
+
     <?php
 $servername = "localhost";
 $username = "emilypri_skeco";
