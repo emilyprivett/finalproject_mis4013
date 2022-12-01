@@ -32,7 +32,7 @@
     <h1 style="text-align:center;">Welcome to Barske!</h1>
   <div class="card-group">
   <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
-  <img class="card-img-top" src="beehive3.jpg">
+  <img class="card-img-top" src="beehive.png">
   <div class="card-body">
     <h5 class="card-title">The Beehive</h5>
     <p class="card-text">564 Moore Avenue, Dallas TX, 75207</p>
