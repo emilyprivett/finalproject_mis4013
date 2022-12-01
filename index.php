@@ -30,7 +30,7 @@
         </div>
     </nav>
     <h1 style="text-align:center;">Welcome to Barske!</h1>
- <div class="container">
+ <div class="container" style="display:inline-block;">
   <div class="card" style="width: 18rem; display:inline-block;">
   <img class="card-img-top" src="beehive.png">
   <div class="card-body">
