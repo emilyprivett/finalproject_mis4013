@@ -53,7 +53,7 @@ if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
 ?>
-    <div id="drinkReviews" style="width:100%; max-width:600px; height:500px; text-align:center; "></div>
+<div id="myGoogleChart" style="width:100%; max-width:600px; height:500px;"></div>
 
     <script>
         google.charts.load('current', { 'packages': ['corechart'] });
@@ -61,7 +61,7 @@ if ($result->num_rows > 0) {
 
         function drawChart() {
             var data = google.visualization.arrayToDataTable([
-                ['Bar', 'Reviews'],
+                ['Contry', 'Mhl'],
                 ['Italy', 55],
                 ['France', 49],
                 ['Spain', 44],
@@ -73,10 +73,11 @@ if ($result->num_rows > 0) {
                 title: 'Barske Drink Reviews'
             };
 
-            var chart = new google.visualization.BarChart(document.getElementById('drinkReviews'));
+            var chart = new google.visualization.BarChart(document.getElementById('myGoogleChart'));
             chart.draw(data, options);
         }
     </script>
+
 
 <?php
   }
