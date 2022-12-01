@@ -30,22 +30,24 @@
         </div>
     </nav>
     <h1 style="text-align:center;">Welcome to Barske!</h1>
-    
-    <div class="card-deck">
+ <div class="container">
+  <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="beehive.png">
   <div class="card-body">
     <h5 class="card-title">The Beehive</h5>
     <p class="card-text">564 Moore Avenue, Dallas TX, 75207</p>
     <a href="beehive.php" class="btn btn-primary">The Beehive</a>
   </div>
-  
+      
+  <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="orchard.png">
   <div class="card-body">
     <h5 class="card-title">The Orchard</h5>
     <p class="card-text">2621 Brooke Street, Houston TX, 77035</p>
     <a href="orchard.php" class="btn btn-primary">The Orchard</a>
   </div>
-     
+        
+  <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="tiki.png">
   <div class="card-body">
     <h5 class="card-title">The Tipsy Tiki</h5>
@@ -53,7 +55,6 @@
     <a href="tiki.php" class="btn btn-primary">The Tipsy Tiki</a>
   </div>
     </div>
- 
     <?php
 $servername = "localhost";
 $username = "emilypri_skeco";
