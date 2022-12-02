@@ -53,7 +53,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-$sql = "SELECT CustomerID, Customer_FirstName,Customer_LastName, Customer_Age FROM Drink d JOIN Order o ON d.DrinkID=o.DrinkID JOIN Customer c ON o.CustomerID=c.CustomerID WHERE d.BarID=1";
+$sql = "SELECT CustomerID, Customer_FirstName,Customer_LastName, Customer_Age FROM Drink d JOIN Order o ON d.DrinkID=o.DrinkID JOIN Customer c ON o.CustomerID=c.CustomerID";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
