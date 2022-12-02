@@ -30,7 +30,17 @@
         </div>
     </nav>
     <h1 style="text-align:center;">The Tipsy Tiki</h1>
-    <?php
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th> Drink ID </th>
+          <th> Drink Name </th>
+          <th> Drink Ingredients </th>
+          <th> Drink Cost </th>
+        </tr>
+      </thead>
+      <tbody>
+        <?php
 $servername = "localhost";
 $username = "emilypri_skeco";
 $password = "Projectdbskeco";
@@ -43,13 +53,19 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-$sql = "SELECT * from Bar";
+$sql = "SELECT DrinkID, Drink_Name, Drink_Recipe, Drink_Cost FROM Drink WHERE BarID=1";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
 ?>
+   <tr>
+      <td><?=$row["DrinkID"]?></td>
+      <td><?=$row["Drink_Name"]?></td>
+      <td><?=$row["Drink_Recipe"]?></td>
+      <td><?=$row["Drink_Cost"]?></td>
+   </tr>
 <?php
   }
 } else {
@@ -57,8 +73,12 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 ?>
-
+      </tbody>
+    </table>
+    <br />
+    
+    <a href="tikicustomers.php" class="btn btn-secondary btn-lg btn-block"> The Tipsy Tiki's Customers<a/>
+    <a href="tikiemployees.php" class="btn btn-secondary btn-lg btn-block"> The Tipsy Tiki's Employees<a/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
-
