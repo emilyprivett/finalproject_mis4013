@@ -46,7 +46,7 @@ if ($result->num_rows > 0) {
   </div>
   <div class="mb-3">
     <label for="Customer_Age" class="form-label">Age</label>
-    <input type="text" class="form-control" id="Customer_Age" aria-describedby="nameHelp" name="cAge">
+    <input type="int" class="form-control" id="Customer_Age" aria-describedby="nameHelp" name="cAge">
     <div id="nameHelp" class="form-text">Enter the customer's age.</div>
   </div>
   <input type="hidden" name="cid" value="<?=$row['CustomerID']?>">
