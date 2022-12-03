@@ -54,7 +54,8 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
         
-$sql = "SELECT c.CustomerID, Customer_FirstName, Customer_LastName, Customer_Age FROM Customer c JOIN Order o ON c.CustomerID = o.CustomerID";
+$sql = "SELECT c.CustomerID, Customer_FirstName, Customer_LastName, Customer_Age FROM Customer c JOIN Order o ON c.CustomerID = o.CustomerID WHERE CustomerID = 1 OR
+CustomerID = 2 OR CustomerID = 3 OR CustomerID = 4 OR CustomerID = 5";
         
 $result = $conn->query($sql);
 
