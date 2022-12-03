@@ -107,7 +107,7 @@ if ($result->num_rows > 0) {
                         <div class="mb-3">
                           <label for="editCustomer<?=$row["CustomerID"]?>Name" class="form-label">Name</label>
                           <input type="text" class="form-control" id="editCustomer<?=$row["CustomerID"]?>Name" aria-describedby="editCustomer<?=$row["CustomerID"]?>Help" name="cName" value="<?=$row['Customer_FirstName']?>">
-                          <div id="editCustomer<?=$row["Customer_ID"]?>Help" class="form-text">Enter the customer's first name.</div>
+                          <div id="editCustomer<?=$row["CustomerID"]?>Help" class="form-text">Enter the customer's first name.</div>
                         </div>
                          <div class="mb-3">
                           <label for="editCustomer<?=$row["CustomerID"]?>Name" class="form-label">Name</label>
