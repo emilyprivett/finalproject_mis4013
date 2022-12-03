@@ -22,7 +22,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM Customer WHERE Customer_ID=?";
+$sql = "SELECT * FROM Customer WHERE CustomerID=?";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $_POST['cid']);
 $stmt->execute();
@@ -49,7 +49,7 @@ if ($result->num_rows > 0) {
     <input type="text" class="form-control" id="Customer_Age" aria-describedby="nameHelp" name="cAge">
     <div id="nameHelp" class="form-text">Enter the customer's age.</div>
   </div>
-  <input type="hidden" name="cid" value="<?=$row['Customer_ID']?>">
+  <input type="hidden" name="cid" value="<?=$row['CustomerID']?>">
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 <?php
