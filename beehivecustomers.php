@@ -37,7 +37,6 @@
           <th> Customer_FirstName </th>
           <th> Customer_LastName </th>
           <th> Customer_Age </th>
-          <th> Order ID </th>
         </tr>
       </thead>
       <tbody>
@@ -54,11 +53,10 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-$sql = "SELECT c.CustomerID, Customer_FirstName, Customer_LastName, Customer_Age, c.OrderID FROM  Customer c JOIN Order o ON c.CustomerID = o.CustomerID";
+$sql = "SELECT c.CustomerID, Customer_FirstName, Customer_LastName, Customer_Age FROM Customer c JOIN Order o ON c.CustomerID = o.CustomerID";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-  // output data of each row
   while($row = $result->fetch_assoc()) {
 ?>
    <tr>
@@ -66,7 +64,6 @@ if ($result->num_rows > 0) {
       <td><?=$row["Customer_FirstName"]?></td>
       <td><?=$row["Customer_LastName"]?></td>
       <td><?=$row["Customer_Age"]?></td>
-     <td><?=$row["OrderID"]?></td>
    </tr>
 <?php
   }
