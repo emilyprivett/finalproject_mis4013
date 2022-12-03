@@ -114,6 +114,11 @@ if ($result->num_rows > 0) {
                           <input type="text" class="form-control" id="editCustomer<?=$row["CustomerID"]?>Name" aria-describedby="editCustomer<?=$row["CustomerID"]?>Help" name="lName" value="<?=$row['Customer_LastName']?>">
                           <div id="editCustomer<?=$row["CustomerID"]?>Help" class="form-text">Enter the customer's last name.</div>
                         </div>
+                        <div class="mb-3">
+                          <label for="editCustomer<?=$row["CustomerID"]?>Name" class="form-label">Age</label>
+                          <input type="text" class="form-control" id="editCustomer<?=$row["CustomerID"]?>Name" aria-describedby="editCustomer<?=$row["CustomerID"]?>Help" name="cAge" value="<?=$row['Customer_Age']?>">
+                          <div id="editCustomer<?=$row["CustomerID"]?>Help" class="form-text">Enter the customer's age.</div>
+                        </div>
                         <input type="hidden" name="cid" value="<?=$row['CustomerID']?>">
                         <input type="hidden" name="saveType" value="Edit">
                         <input type="submit" class="btn btn-primary" value="Submit">
