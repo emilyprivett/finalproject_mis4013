@@ -77,7 +77,7 @@ $conn->close();
     </table>
     <br />
     
-    <a href="orchardcustomers.php" class="btn btn-secondary btn-lg btn-block"> The Orchard's Customers<a/>
+    <a href="customers.php" class="btn btn-secondary btn-lg btn-block"> Barske Customers<a/>
     <a href="orchardemployees.php" class="btn btn-secondary btn-lg btn-block"> The Orchard's Employees<a/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
