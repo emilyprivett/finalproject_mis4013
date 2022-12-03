@@ -115,8 +115,8 @@ if ($result->num_rows > 0) {
                           <div id="editCustomer<?=$row["CustomerID"]?>Help" class="form-text">Enter the customer's last name.</div>
                         </div>
                         <div class="mb-3">
-                          <label for="editCustomer<?=$row["CustomerID"]?>Name" class="form-label">Age</label>
-                          <input type="text" class="form-control" id="editCustomer<?=$row["CustomerID"]?>Name" aria-describedby="editCustomer<?=$row["CustomerID"]?>Help" name="cAge" value="<?=$row['Customer_Age']?>">
+                          <label for="editCustomer<?=$row["CustomerID"]?>Age" class="form-label">Age</label>
+                          <input type="text" class="form-control" id="editCustomer<?=$row["CustomerID"]?>Age" aria-describedby="editCustomer<?=$row["CustomerID"]?>Help" name="cAge" value="<?=$row['Customer_Age']?>">
                           <div id="editCustomer<?=$row["CustomerID"]?>Help" class="form-text">Enter the customer's age.</div>
                         </div>
                         <input type="hidden" name="cid" value="<?=$row['CustomerID']?>">
