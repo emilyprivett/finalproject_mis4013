@@ -66,7 +66,47 @@ if ($result->num_rows > 0) {
       <td><?=$row["Customer_FirstName"]?></td>
       <td><?=$row["Customer_LastName"]?></td>
       <td><?=$row["Customer_Age"]?></td>
-   </tr>
+     <td>
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#editCustomer<?=$row["Customer_ID"]?>">
+                Edit
+              </button>
+              <div class="modal fade" id="editCustomer<?=$row["Customer_ID"]?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editCustomer<?=$row["Customer_ID"]?>Label" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="editCustomer<?=$row["Customer_ID"]?>Label">Edit Customer</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form method="post" action="">
+                        <div class="mb-3">
+                          <label for="editCustomer<?=$row["Customer_ID"]?>Name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="editCustomer<?=$row["Customer_ID"]?>Name" aria-describedby="editCustomer<?=$row["Customer_ID"]?>Help" name="cName" value="<?=$row['Customer_FirstName']?>">
+                          <div id="editCustomer<?=$row["Customer_ID"]?>Help" class="form-text">Enter the customer's first name.</div>
+                        </div>
+                         <div class="mb-3">
+                          <label for="editCustomer<?=$row["Customer_ID"]?>Name" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="editCustomer<?=$row["Customer_ID"]?>Name" aria-describedby="editCustomer<?=$row["Customer_ID"]?>Help" name="lName" value="<?=$row['Customer_LastName']?>">
+                          <div id="editCustomer<?=$row["Customer_ID"]?>Help" class="form-text">Enter the customer's last name.</div>
+                        </div>
+                        <input type="hidden" name="cid" value="<?=$row['Customer_ID']?>">
+                        <input type="hidden" name="saveType" value="Edit">
+                        <input type="submit" class="btn btn-primary" value="Submit">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+             <td>
+              <form method="post" action="">
+                <input type="hidden" name="cid" value="<?=$row["Customer_ID"]?>" />
+                <input type="hidden" name="saveType" value="Delete">
+                <input type="submit" class="btn btn-danger" onclick="return confirm('Are you sure?')" value="Delete">
+              </form>
+            </td>
+          </tr>
+  
 <?php
   }
 } else {
