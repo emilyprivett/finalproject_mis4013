@@ -34,9 +34,9 @@
       <thead>
         <tr>
           <th> Customer ID </th>
-          <th> Customer_FirstName </th>
-          <th> Customer_LastName </th>
-          <th> Customer_Age </th>
+          <th> First Name </th>
+          <th> Last Name </th>
+          <th> Age </th>
         </tr>
       </thead>
       <tbody>
