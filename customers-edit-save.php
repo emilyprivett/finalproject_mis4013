@@ -22,7 +22,7 @@ if ($conn->connect_error) {
 }
 $cName = $_POST['cName'];
 
-$sql = "update Customer set Customer_FirstName=?, Customer_LastName=?, Customer_Age=? WHERE Customer_ID=?";
+$sql = "update Customer set Customer_FirstName=?, Customer_LastName=?, Customer_Age=? WHERE CustomerID=?";
 //echo $sql;
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("ssii", $cName,$_POST['lName'],$_POST['cAge'],$_POST['cid']);
