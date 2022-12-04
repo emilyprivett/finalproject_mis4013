@@ -61,12 +61,18 @@ if ($result->num_rows > 0) {
 
         function drawChart() {
             var data = google.visualization.arrayToDataTable([
-                ['Bar', 'Average # of Stars'],
-                ['Italy', 55],
-                ['France', 49],
-                ['Spain', 44],
-                ['USA', 24],
-                ['Argentina', 15]
+                ['Bar', 'Average Star Review'],
+                ['Tequila Honey Bee', 5],
+                ['Honey Rose Old Fashioned', 3],
+                ['Honey Mojito', 1],
+                ['Honey Martini', 2],
+                ['Cider Margarita', 4],
+                ['Appletini', 5],
+                ['Cider Bellini', 5],
+                ['Maui Mule', 5],
+                ['Bahama Mama', 1],
+                ['Blue Hawaiian Punch', 2],
+                ['Pina Colada Sangria', 1],
             ]);
 
             var options = {
