@@ -82,9 +82,9 @@ if ($result->num_rows > 0) {
                 ['Pina Colada Sangria', 1],
             ]);
             
-            backgroundColor: barColors
             var options = {
-                title: 'Barske Drink Reviews'
+                title: 'Barske Drink Reviews',
+                colors: ['purple'],
             };
 
             var chart = new google.visualization.BarChart(document.getElementById('myGoogleChart'));
