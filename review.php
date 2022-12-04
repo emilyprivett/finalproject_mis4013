@@ -58,13 +58,7 @@ if ($result->num_rows > 0) {
     <script>
         google.charts.load('current', { 'packages': ['corechart'] });
         google.charts.setOnLoadCallback(drawChart);
-      
-        var barColors = [
-        "rgba(255,0,0,1.0)",
-        "rgba(255,0,0,0.8)",
-        "rgba(255,0,0,0.6)",
-        "rgba(255,0,0,0.4)",
-        "rgba(255,0,0,0.2)"
+    
 
         function drawChart() {
             var data = google.visualization.arrayToDataTable([
