@@ -26,6 +26,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="review.php">Drink Reviews</a>
                 </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="review.php">Drink Reviews</a>
+                </li>
             </ul>
         </div>
     </nav>
