@@ -28,7 +28,7 @@
                     <a class="nav-link" href="review.php">Drink Reviews</a>
                 </li>
                <li class="nav-item">
-                    <a class="nav-link" href="review.php">Drink Reviews</a>
+                    <a class="nav-link" href="aboutus.php">About Barske Founders</a>
                 </li>
             </ul>
         </div>
