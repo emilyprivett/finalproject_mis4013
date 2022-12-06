@@ -70,19 +70,19 @@
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="barpicbeehive.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
+    <div class="text">The Beehive</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="orchardbarpic.webp" style="width:100%">
-    <div class="text">Caption Two</div>
+    <div class="text">The Orchard</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
     <img src="barpictiki.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+    <div class="text">The Tipsy Tiki</div>
   </div>
 
   <!-- Next and previous buttons -->
