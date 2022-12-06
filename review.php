@@ -34,7 +34,7 @@
         </div>
     </nav>
     <h1 style="text-align:center;">Drink Reviews</h1>
-    <div id="myGoogleChart" style="width:100%; max-width:700px; height:600px;"></div>
+    <div id="myGoogleChart" style="width:100%; max-width:700px; height:600px; display: block; margin-left: auto; margin-right: auto;"></div>
 
     <?php
 $servername = "localhost";
