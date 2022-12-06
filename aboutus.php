@@ -40,9 +40,9 @@
       <img src="sydney.jpg" alt="Sydney" style="width:100%">
       <div class="container">
         <h2>Sydney Cherek</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
+        <p class="title">The Beehive Owner</p>
+        <p>Sydney has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for Exxon!</p>
+        <p>Sydney.C.Cherek-1@ou.edu</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
@@ -53,9 +53,9 @@
       <img src="kylie.jpg" alt="Kylie" style="width:100%">
       <div class="container">
         <h2>Kylie Merz</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
+        <p class="title">The Orchard Owner</p>
+        <p>Kylie has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for Weaver!</p>
+        <p>kmerz@ou.edu</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
@@ -66,9 +66,9 @@
       <img src="emily.jpg" alt="Emily" style="width:100%">
       <div class="container">
         <h2>Emily Privett</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
+        <p class="title">The Tipsy Tiki Owner</p>
+        <p>Emily has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for FORVIS!</p>
+        <p>eaprivett@ou.edu</p>
         <p><button class="button">Contact</button></p>
       </div>
     </div>
