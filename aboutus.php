@@ -34,18 +34,10 @@
         </div>
     </nav>
     <h1 style="text-align:center;">About the Barske Founders</h1>
-    
-    <div class="about-section">
-  <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
-</div>
-
-<h2 style="text-align:center">Our Team</h2>
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <img src="sydney.jpg" alt="Sydney" style="width:100%">
       <div class="container">
         <h2>Sydney Cherek</h2>
         <p class="title">CEO & Founder</p>
@@ -58,7 +50,7 @@
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <img src="kylie.jpg" alt="Kylie" style="width:100%">
       <div class="container">
         <h2>Kylie Merz</h2>
         <p class="title">Art Director</p>
@@ -71,7 +63,7 @@
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <img src="emily.jpg" alt="Emily" style="width:100%">
       <div class="container">
         <h2>Emily Privett</h2>
         <p class="title">Designer</p>
