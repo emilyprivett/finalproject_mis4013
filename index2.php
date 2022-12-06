@@ -59,8 +59,8 @@
   </div>
   </div>
   </div>
-  <h2>Our Bars</h2>
 <br></br>
+  <h2>Our Bars</h2>
   <br></br>
 
  <!-- Slideshow container -->
