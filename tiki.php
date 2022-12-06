@@ -56,7 +56,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-$sql = "SELECT DrinkID, Drink_Name, Drink_Recipe, Drink_Cost FROM Drink WHERE BarID=1";
+$sql = "SELECT DrinkID, Drink_Name, Drink_Recipe, Drink_Cost FROM Drink WHERE BarID=3";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
