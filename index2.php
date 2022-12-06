@@ -63,46 +63,40 @@
 <br></br>
   <br></br>
 
-<div class="100-px-wide">
-  
-  <div class="container">
-  <h2>Our Bars</h2>  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+ <!-- Slideshow container -->
+<div class="slideshow-container">
 
-    
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="barpicbeehive.jpg" alt="The Beehive" style="width:100%;">
-      </div>
-
-      <div class="item">
-        <img src="orchardbarpic.webp" alt="The Orchard" style="width:100%;">
-      </div>
-    
-      <div class="item">
-        <img src="barpictiki.jpg" alt="The Tipsy Tiki" style="width:100%;">
-      </div>
-    </div>
-
-    
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img1.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
   </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-  
-  </div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
   
     
     <?php
