@@ -56,7 +56,7 @@ if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
 ?>
-<div id="myGoogleChart" style="width:100%; max-width:700px; height:600px; text-align:center;"></div>
+<div id="myGoogleChart" style="width:100%; max-width:700px; height:600px; display: block; margin-left: auto; margin-right: auto;"></div>
 
     <script>
         google.charts.load('current', { 'packages': ['corechart'] });
