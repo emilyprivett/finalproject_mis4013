@@ -35,7 +35,7 @@
     <h1 style="text-align:center;">Welcome to Barske!</h1>
   <div class="card-group">
   <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
-  <img class="card-img-top" src="beehive.png">
+  <img class="card-img-top" src="beehivelogo.png">
   <div class="card-body">
     <h5 class="card-title">The Beehive</h5>
     <p class="card-text">564 Moore Avenue, Dallas TX, 75207</p>
@@ -43,7 +43,7 @@
   </div>
   </div>
   <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
-  <img class="card-img-top" src="orchard.png">
+  <img class="card-img-top" src="orchardlogo.png">
   <div class="card-body">
     <h5 class="card-title">The Orchard</h5>
     <p class="card-text">2621 Brooke Street, Houston TX, 77035</p>
@@ -51,7 +51,7 @@
   </div>
   </div>    
   <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
-  <img class="card-img-top" src="tiki.png">
+  <img class="card-img-top" src="tikilogo.png">
   <div class="card-body">
     <h5 class="card-title">The Tipsy Tiki</h5>
     <p class="card-text">934 Short Street, Austin TX, 78723</p>
