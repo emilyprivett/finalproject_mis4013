@@ -63,6 +63,7 @@
   
 <br></br>
   <br></br>
+<h2>Our Bars</h2>
 
  <!-- Slideshow container -->
 <div class="slideshow-container">
