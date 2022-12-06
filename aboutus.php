@@ -41,8 +41,8 @@
       <div class="container">
         <h2 style="text-align:center;">Sydney Cherek</h2>
         <p class="title" style="text-align:center;>The Beehive Owner</p>
-        <p style="text-align:center;>Sydney has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for Exxon!</p>
-        <p style="text-align:center;>Sydney.C.Cherek-1@ou.edu</p>
+        <p>Sydney has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for Exxon!</p>
+        <p>Sydney.C.Cherek-1@ou.edu</p>
       </div>
     </div>
   </div>
@@ -53,8 +53,8 @@
       <div class="container">
         <h2 style="text-align:center;">Kylie Merz</h2>
         <p class="title" style="text-align:center;>The Orchard Owner</p>
-        <p style="text-align:center;>Kylie has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for Weaver!</p>
-        <p style="text-align:center;>kmerz@ou.edu</p>
+        <p>Kylie has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for Weaver!</p>
+        <p>kmerz@ou.edu</p>
       </div>
     </div>
   </div>
@@ -65,8 +65,8 @@
       <div class="container">
         <h2 style="text-align:center;">Emily Privett</h2>
         <p class="title" style="text-align:center;>The Tipsy Tiki Owner</p>
-        <p style="text-align:center;>Emily has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for FORVIS!</p>
-        <p style="text-align:center;>eaprivett@ou.edu</p>
+        <p>Emily has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for FORVIS!</p>
+        <p>eaprivett@ou.edu</p>
       </div>
     </div>
   </div>
