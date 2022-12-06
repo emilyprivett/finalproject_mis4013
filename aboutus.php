@@ -40,7 +40,7 @@
       <img src="sydney.jpg" alt="Sydney" style="width:100%">
       <div class="container">
         <h2 style="text-align:center;">Sydney Cherek</h2>
-        <p class="title" style="text-align:center;>The Beehive Owner</p>
+        <p class="title">The Beehive Owner</p>
         <p>Sydney has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for Exxon!</p>
         <p>Sydney.C.Cherek-1@ou.edu</p>
       </div>
@@ -52,7 +52,7 @@
       <img src="kylie.jpg" alt="Kylie" style="width:100%">
       <div class="container">
         <h2 style="text-align:center;">Kylie Merz</h2>
-        <p class="title" style="text-align:center;>The Orchard Owner</p>
+        <p class="title">The Orchard Owner</p>
         <p>Kylie has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for Weaver!</p>
         <p>kmerz@ou.edu</p>
       </div>
@@ -64,7 +64,7 @@
       <img src="emily.jpg" alt="Emily" style="width:100%">
       <div class="container">
         <h2 style="text-align:center;">Emily Privett</h2>
-        <p class="title" style="text-align:center;>The Tipsy Tiki Owner</p>
+        <p class="title">The Tipsy Tiki Owner</p>
         <p>Emily has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for FORVIS!</p>
         <p>eaprivett@ou.edu</p>
       </div>
