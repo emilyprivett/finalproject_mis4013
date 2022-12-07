@@ -37,25 +37,25 @@
   <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
   <img class="card-img-top" src="beehivelogo.png">
   <div class="card-body">
-    <h5 class="card-title">The Beehive</h5>
-    <p class="card-text">564 Moore Avenue, Dallas TX, 75207</p>
-    <a href="beehive.php" class="btn btn-primary">The Beehive</a>
+    <h5 class="card-title" style="font-family:Rockwell;">The Beehive</h5>
+    <p class="card-text" style="font-family:Rockwell;">564 Moore Avenue, Dallas TX, 75207</p>
+    <a href="beehive.php" class="btn btn-primary" style="font-family:Rockwell;">The Beehive</a>
   </div>
   </div>
   <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
   <img class="card-img-top" src="orchardlogo.png">
   <div class="card-body">
-    <h5 class="card-title">The Orchard</h5>
-    <p class="card-text">2621 Brooke Street, Houston TX, 77035</p>
-    <a href="orchard.php" class="btn btn-primary">The Orchard</a>
+    <h5 class="card-title" style="font-family:Rockwell;">The Orchard</h5>
+    <p class="card-text" style="font-family:Rockwell;">2621 Brooke Street, Houston TX, 77035</p>
+    <a href="orchard.php" class="btn btn-primary" style="font-family:Rockwell;">The Orchard</a>
   </div>
   </div>    
   <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
   <img class="card-img-top" src="tikilogo.png">
   <div class="card-body">
-    <h5 class="card-title">The Tipsy Tiki</h5>
-    <p class="card-text">934 Short Street, Austin TX, 78723</p>
-    <a href="tiki.php" class="btn btn-primary">The Tipsy Tiki</a>
+    <h5 class="card-title" style="font-family:Rockwell;">The Tipsy Tiki</h5>
+    <p class="card-text" style="font-family:Rockwell;">934 Short Street, Austin TX, 78723</p>
+    <a href="tiki.php" class="btn btn-primary" style="font-family:Rockwell;">The Tipsy Tiki</a>
   </div>
   </div>
   </div>
@@ -70,19 +70,19 @@
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="barpicbeehive.jpg" style="width:100%">
-    <div class="text">The Beehive</div>
+    <div class="text" style="font-family:Rockwell;">The Beehive</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
     <img src="orchardbarpic.webp" style="width:100%">
-    <div class="text">The Orchard</div>
+    <div class="text" style="font-family:Rockwell;">The Orchard</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
     <img src="barpictiki.jpg" style="width:100%">
-    <div class="text">The Tipsy Tiki</div>
+    <div class="text" style="font-family:Rockwell;">The Tipsy Tiki</div>
   </div>
 
   <!-- Next and previous buttons -->
