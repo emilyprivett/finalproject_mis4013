@@ -33,8 +33,8 @@
             </ul>
         </div>
     </nav>
-    <h1 style="text-align:center;">Drink Reviews</h1>
-    <div id="myGoogleChart" style="width:100%; max-width:700px; height:600px; display: block; margin-left: auto; margin-right: auto;"></div>
+    <h1 style="text-align:center; font-family:Rockwell; font-weight:bold;">Drink Reviews</h1>
+    <div id="myGoogleChart" style="width:100%; max-width:700px; height:600px; display: block; margin-left: auto; margin-right: auto; font-family:Rockwell;"></div>
 
     <?php
 $servername = "localhost";
@@ -56,7 +56,7 @@ if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
 ?>
-<div id="myGoogleChart" style="width:100%; max-width:700px; height:600px; display: block; margin-left: auto; margin-right: auto;"></div>
+<div id="myGoogleChart" style="width:100%; max-width:700px; height:600px; display: block; margin-left: auto; margin-right: auto; font-family:Rockwell;"></div>
 
     <script>
         google.charts.load('current', { 'packages': ['corechart'] });
