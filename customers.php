@@ -32,7 +32,7 @@
             </ul>
         </div>
     </nav>
-    <h1 style="text-align:center; style="font-family:Rockwell; font-weight:bold;">Barske Customer's</h1>
+    <h1 style="text-align:center; font-family:Rockwell; font-weight:bold;">Barske's Customers</h1>
     <table class="table table-striped">
       <thead>
         <tr>
