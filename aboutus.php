@@ -40,8 +40,8 @@
       <img src="sydney.jpg" alt="Sydney" style="width:100%">
       <div class="container">
         <h2 style="text-align:center; font-family:Rockwell;">Sydney Cherek</h2>
-        <p style="font-family:Rockwell;" class="title">The Beehive Owner</p>
-        <p style="font-family:Rockwell;">Sydney has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for Exxon!</p>
+        <p style="font-family:Rockwell;" class="title">The Orchard Owner</p>
+        <p style="font-family:Rockwell;">Sydney has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for ExxonMobile!</p>
         <p style="font-family:Rockwell;">Sydney.C.Cherek-1@ou.edu</p>
       </div>
     </div>
@@ -52,7 +52,7 @@
       <img src="kylie.jpg" alt="Kylie" style="width:100%">
       <div class="container">
         <h2 style="text-align:center; font-family:Rockwell;">Kylie Merz</h2>
-        <p style="font-family:Rockwell;" class="title">The Orchard Owner</p>
+        <p style="font-family:Rockwell;" class="title">The Beehive Owner</p>
         <p style="font-family:Rockwell;">Kylie has a BBA in MIS and is working towards her MS in Management of Information Technology. Upon graduation she will be working for Weaver!</p>
         <p style="font-family:Rockwell;">kmerz@ou.edu</p>
       </div>
