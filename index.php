@@ -32,7 +32,7 @@
             </ul>
         </div>
     </nav>
-    <h1 style="text-align:center; font-family: Century Gothic, Arial, Tahoma, Serif;">Welcome to Barske!</h1>
+    <h1 style="text-align:center; font-family: "Century Gothic;"">Welcome to Barske!</h1>
   <div class="card-group">
   <div class="card" style="width:18rem; margin-left:1rem; margin-right:1rem;">
   <img class="card-img-top" src="beehivelogo.png">
