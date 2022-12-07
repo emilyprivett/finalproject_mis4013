@@ -32,15 +32,15 @@
             </ul>
         </div>
     </nav>
-    <h1 style="text-align:center;">The Tipsy Tiki Employee's</h1>
+    <h1 style="text-align:center; font-family:Rockwell; font-weight:bold;">The Tipsy Tiki Employee's</h1>
     <table class="table table-striped">
       <thead>
         <tr>
-          <th> Employee ID </th>
-          <th> First Name </th>
-          <th> Last Name </th>
-          <th> Age </th>
-          <th> Years of Experience </th>
+          <th style="font-family:Rockwell;"> Employee ID </th>
+          <th style="font-family:Rockwell;"> First Name </th>
+          <th style="font-family:Rockwell;"> Last Name </th>
+          <th style="font-family:Rockwell;"> Age </th>
+          <th style="font-family:Rockwell;"> Years of Experience </th>
         </tr>
       </thead>
       <tbody>
@@ -65,11 +65,11 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
 ?>
    <tr>
-      <td><?=$row["EmployeeID"]?></td>
-      <td><?=$row["Employee_FirstName"]?></td>
-      <td><?=$row["Employee_LastName"]?></td>
-      <td><?=$row["Employee_Age"]?></td>
-     <td><?=$row["Years_Of_Experience"]?></td>
+      <td style="font-family:Rockwell;"><?=$row["EmployeeID"]?></td>
+      <td style="font-family:Rockwell;"><?=$row["Employee_FirstName"]?></td>
+      <td style="font-family:Rockwell;"><?=$row["Employee_LastName"]?></td>
+      <td style="font-family:Rockwell;"><?=$row["Employee_Age"]?></td>
+     <td style="font-family:Rockwell;"><?=$row["Years_Of_Experience"]?></td>
    </tr>
 <?php
   }
