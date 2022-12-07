@@ -60,7 +60,7 @@
   </div>
   </div>
 <br></br>
-  <h2 style="text-align:center;">Our Bars</h2>
+  <h2 style="text-align:center; font-family:Rockwell;">Our Bars</h2>
   <br></br>
 
  <!-- Slideshow container -->
