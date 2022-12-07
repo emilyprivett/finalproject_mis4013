@@ -32,14 +32,14 @@
             </ul>
         </div>
     </nav>
-    <h1 style="text-align:center;">Barske Customer's</h1>
+    <h1 style="text-align:center; style="font-family:Rockwell; font-weight:bold;">Barske Customer's</h1>
     <table class="table table-striped">
       <thead>
         <tr>
-          <th> Customer ID </th>
-          <th> First Name </th>
-          <th> Last Name </th>
-          <th> Age </th>
+          <th style="font-family:Rockwell;"> Customer ID </th>
+          <th style="font-family:Rockwell;"> First Name </th>
+          <th style="font-family:Rockwell;"> Last Name </th>
+          <th style="font-family:Rockwell;"> Age </th>
         </tr>
       </thead>
       <tbody>
@@ -90,41 +90,41 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
 ?>
    <tr>
-      <td><?=$row["CustomerID"]?></td>
-      <td><?=$row["Customer_FirstName"]?></td>
-      <td><?=$row["Customer_LastName"]?></td>
-      <td><?=$row["Customer_Age"]?></td>
+      <td style="font-family:Rockwell;"><?=$row["CustomerID"]?></td>
+      <td style="font-family:Rockwell;"><?=$row["Customer_FirstName"]?></td>
+      <td style="font-family:Rockwell;"><?=$row["Customer_LastName"]?></td>
+      <td style="font-family:Rockwell;"><?=$row["Customer_Age"]?></td>
      <td>
-        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#editCustomer<?=$row["CustomerID"]?>">
+        <button type="button" class="btn btn-warning" style="font-family:Rockwell;" data-bs-toggle="modal" data-bs-target="#editCustomer<?=$row["CustomerID"]?>">
                 Edit
               </button>
               <div class="modal fade" id="editCustomer<?=$row["CustomerID"]?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editCustomer<?=$row["CustomerID"]?>Label" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="editCustomer<?=$row["CustomerID"]?>Label">Edit Customer</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <h1 class="modal-title fs-5" style="font-family:Rockwell;" id="editCustomer<?=$row["CustomerID"]?>Label">Edit Customer</h1>
+                      <button type="button" class="btn-close" style="font-family:Rockwell;" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                       <form method="post" action="">
                         <div class="mb-3">
-                          <label for="editCustomer<?=$row["CustomerID"]?>Name" class="form-label">Name</label>
+                          <label for="editCustomer<?=$row["CustomerID"]?>Name" class="form-label" style="font-family:Rockwell;">Name</label>
                           <input type="text" class="form-control" id="editCustomer<?=$row["CustomerID"]?>Name" aria-describedby="editCustomer<?=$row["CustomerID"]?>Help" name="cName" value="<?=$row['Customer_FirstName']?>">
-                          <div id="editCustomer<?=$row["CustomerID"]?>Help" class="form-text">Enter the customer's first name.</div>
+                          <div id="editCustomer<?=$row["CustomerID"]?>Help" class="form-text" style="font-family:Rockwell;">Enter the customer's first name.</div>
                         </div>
                          <div class="mb-3">
-                          <label for="editCustomer<?=$row["CustomerID"]?>Name" class="form-label">Name</label>
+                          <label for="editCustomer<?=$row["CustomerID"]?>Name" class="form-label" style="font-family:Rockwell;">Name</label>
                           <input type="text" class="form-control" id="editCustomer<?=$row["CustomerID"]?>Name" aria-describedby="editCustomer<?=$row["CustomerID"]?>Help" name="lName" value="<?=$row['Customer_LastName']?>">
-                          <div id="editCustomer<?=$row["CustomerID"]?>Help" class="form-text">Enter the customer's last name.</div>
+                          <div id="editCustomer<?=$row["CustomerID"]?>Help" class="form-text" style="font-family:Rockwell;">Enter the customer's last name.</div>
                         </div>
                         <div class="mb-3">
-                          <label for="editCustomer<?=$row["CustomerID"]?>Age" class="form-label">Age</label>
+                          <label for="editCustomer<?=$row["CustomerID"]?>Age" class="form-label" style="font-family:Rockwell;">Age</label>
                           <input type="int" class="form-control" id="editCustomer<?=$row["CustomerID"]?>Age" aria-describedby="editCustomer<?=$row["CustomerID"]?>Help" name="cAge" value="<?=$row['Customer_Age']?>">
-                          <div id="editCustomer<?=$row["CustomerID"]?>Help" class="form-text">Enter the customer's age.</div>
+                          <div id="editCustomer<?=$row["CustomerID"]?>Help" class="form-text" style="font-family:Rockwell;">Enter the customer's age.</div>
                         </div>
                         <input type="hidden" name="cid" value="<?=$row['CustomerID']?>">
                         <input type="hidden" name="saveType" value="Edit">
-                        <input type="submit" class="btn btn-primary" value="Submit">
+                        <input type="submit" class="btn btn-primary" style="font-family:Rockwell;" value="Submit">
                       </form>
                     </div>
                   </div>
@@ -135,7 +135,7 @@ if ($result->num_rows > 0) {
               <form method="post" action="">
                 <input type="hidden" name="cid" value="<?=$row["CustomerID"]?>" />
                 <input type="hidden" name="saveType" value="Delete">
-                <input type="submit" class="btn btn-danger" onclick="return confirm('Are you sure?')" value="Delete">
+                <input type="submit" class="btn btn-danger" style="font-family:Rockwell;" onclick="return confirm('Are you sure?')" value="Delete">
               </form>
             </td>
           </tr>
@@ -151,7 +151,7 @@ $conn->close();
     </table>
     <br />
     <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addCustomer">
+      <button type="button" class="btn btn-primary" style="font-family:Rockwell;" data-bs-toggle="modal" data-bs-target="#addCustomer">
         Add New
       </button>
 
@@ -160,28 +160,28 @@ $conn->close();
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="addCustomerLabel">Add Customer</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <h1 class="modal-title fs-5" id="addCustomerLabel" style="font-family:Rockwell;">Add Customer</h1>
+              <button type="button" class="btn-close" style="font-family:Rockwell;" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <form method="post" action="">
                 <div class="mb-3">
-                  <label for="Customer_FirstName" class="form-label">First Name</label>
+                  <label for="Customer_FirstName" class="form-label" style="font-family:Rockwell;">First Name</label>
                   <input type="text" class="form-control" id="Customer_FirstName" aria-describedby="nameHelp" name="cName">
-                  <div id="nameHelp" class="form-text">Enter the customer's first name.</div>
+                  <div id="nameHelp" class="form-text" style="font-family:Rockwell;">Enter the customer's first name.</div>
                 </div>
                 <div class="mb-3">
-                  <label for="Customer_LastName" class="form-label">Last Name</label>
+                  <label for="Customer_LastName" class="form-label" style="font-family:Rockwell;">Last Name</label>
                   <input type="text" class="form-control" id="Customer_LastName" aria-describedby="nameHelp" name="lName">
-                  <div id="nameHelp" class="form-text">Enter the customer's last name.</div>
+                  <div id="nameHelp" class="form-text" style="font-family:Rockwell;">Enter the customer's last name.</div>
                 </div>
                 <div class="mb-3">
-                  <label for="Customer_Age" class="form-label">Customer Age</label>
+                  <label for="Customer_Age" class="form-label" style="font-family:Rockwell;">Customer Age</label>
                   <input type="int" class="form-control" id="Customer_Age" aria-describedby="nameHelp" name="cAge">
-                  <div id="nameHelp" class="form-text">Enter the customer's Age.</div>
+                  <div id="nameHelp" class="form-text" style="font-family:Rockwell;">Enter the customer's Age.</div>
                 </div>
                 <input type="hidden" name="saveType" value="Add">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" style="font-family:Rockwell;">Submit</button>
               </form>
             </div>
           </div>
