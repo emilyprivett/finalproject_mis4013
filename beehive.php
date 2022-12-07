@@ -81,7 +81,7 @@ $conn->close();
     <br />
     
     <a href="customers.php" class="btn btn-secondary btn-lg btn-block" style="font-family:Rockwell;"> Barske Customers<a/>
-    <a href="beehiveemployees.php" class="btn btn-secondary btn-lg btn-block" style="font-family:Rockwell;"> The BeeHive's Employees<a/>
+    <a href="beehiveemployees.php" class="btn btn-secondary btn-lg btn-block" style="font-family:Rockwell;"> The Beehive's Employees<a/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
