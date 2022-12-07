@@ -67,7 +67,7 @@ if ($result->num_rows > 0) {
       <td style="font-family:Rockwell;"><?=$row["DrinkID"]?></td>
       <td style="font-family:Rockwell;"><?=$row["Drink_Name"]?></td>
       <td style="font-family:Rockwell;"><?=$row["Drink_Recipe"]?></td>
-      <td style="font-family:Rockwell;"><$?=$row["Drink_Cost"]?></td>
+      <td style="font-family:Rockwell;">$<?=$row["Drink_Cost"]?></td>
    </tr>
 <?php
   }
